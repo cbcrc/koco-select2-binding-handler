@@ -1,0 +1,28 @@
+{
+  "name": "koco-select2-binding-handler",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cbcrc/koco-select2-binding-handler",
+  "authors": [
+    "David D'Amico <david.damico@cbc.ca>"
+  ],
+  "description": "Binding handler for use with select2 ui library.",
+  "main": "src/select2-binding-handler.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "koco",
+    "select2"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "select2-amd": "^3.3.2"
+  }
+}
