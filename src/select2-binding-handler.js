@@ -1,6 +1,6 @@
 import ko from 'knockout';
 import $ from 'jquery';
-import KoDisposer from 'disposer';
+import KoDisposer from 'koco-disposer';
 
 
 //TODO: Faire en sorte que ce binding applique implicitement les bindings de "options"
