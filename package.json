@@ -16,8 +16,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "koco": "^1.0.0",
-    "select2-amd": "^3.3.2"
+    "jquery": "^2.1.4",
+    "knockout": "^3.4.0",
+    "select2": "^3.3.2",
+    "koco-disposer": "^1.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
