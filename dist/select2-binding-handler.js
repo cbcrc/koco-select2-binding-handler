@@ -8,9 +8,9 @@ var _jquery = require('jquery');
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _disposer = require('disposer');
+var _kocoDisposer = require('koco-disposer');
 
-var _disposer2 = _interopRequireDefault(_disposer);
+var _kocoDisposer2 = _interopRequireDefault(_kocoDisposer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28,7 +28,7 @@ _knockout2.default.bindingHandlers.select2 = {
 
         $element.select2(obj);
 
-        var koDisposer = new _disposer2.default();
+        var koDisposer = new _kocoDisposer2.default();
 
         _knockout2.default.utils.domNodeDisposal.addDisposeCallback(element, function () {
             koDisposer.dispose();
